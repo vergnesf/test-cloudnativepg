@@ -14,7 +14,3 @@ secretGenerator:
       - username=app
       - password=1f2d1e2e67df
     type: kubernetes.io/basic-auth
-
-
-# this project is a test of Cloud Native PostgreSQL
-# it is not intended for production use
