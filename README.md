@@ -27,6 +27,9 @@ nodes:
   - containerPort: 443
     hostPort: 443
     protocol: TCP
+  - containerPort: 5432
+    hostPort: 5432
+    protocol: TCP
 EOF
 ```
 
@@ -62,3 +65,8 @@ kubectl apply --server-side -f \
 k apply -k k8s/base .
 ```
 
+## Documentations
+
+- [Backup](https://cloudnative-pg.io/documentation/current/backup/)
+- [Backup on object stores](https://cloudnative-pg.io/documentation/current/backup_barmanobjectstore/)
+- [Monitoring](https://cloudnative-pg.io/documentation/current/monitoring/)

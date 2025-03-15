@@ -11,5 +11,7 @@ spec:
     initdb:
       database: app
       owner: app
+      dataChecksums: true
+      encoding: UTF8
       secret:
         name: database-creds
